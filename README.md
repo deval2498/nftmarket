@@ -27,3 +27,4 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+Be sure to change the contract address in the frontend section and replace it with your deployed contract.
