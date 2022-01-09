@@ -1,6 +1,13 @@
-# Basic Sample Hardhat Project
+NFT market to make nft by passing urls' as argument
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+It uses hardhat boiler plate and also react boiler plate
+```shell
+npx create-react-app "name of your folder"
+npx hardhat (in your react folder)
+yarn add @openzeppelin/contracts
+yarn add dotenv
+```
+
 
 Try running some of the following tasks:
 
