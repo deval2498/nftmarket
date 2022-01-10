@@ -7,6 +7,7 @@ npx hardhat (in your react folder)
 yarn add @openzeppelin/contracts
 yarn add dotenv
 npm install --save-dev @nomiclabs/hardhat-etherscan
+https://crimson-flower-2858.on.fleek.co/    (Check out the front end)
 ```
 
 To deploy on a testnet you need to create a .env file and fill the info in following variables
