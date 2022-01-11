@@ -31,15 +31,6 @@ function Team(){
     }
   }
 
-  async function Connect(){
-    
-    account = await requestAccount()
-    const provider = new ethers.providers.Web3Provider(window.ethereum)
-    const signer = provider.getSigner()
-    const balance = ethers.utils.formatEther(await provider.getBalance(account))
-    console.log(account,':',balance)
-   
-  }
 
   return (
     
