@@ -53,7 +53,7 @@ function Home(){
          />
          
         <input onChange={e => setEthAmount(e.target.value)} 
-        placeholder="Eth Amount"
+        placeholder="0.055 Eth per NFT"
          />
          
          

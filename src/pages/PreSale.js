@@ -31,6 +31,16 @@ function Team(){
     }
   }
 
+  async function Connect(){
+    
+    account = await requestAccount()
+    const provider = new ethers.providers.Web3Provider(window.ethereum)
+    const signer = provider.getSigner()
+    const balance = ethers.utils.formatEther(await provider.getBalance(account))
+    console.log(account,':',balance)
+   
+  }
+
   return (
     
     <div className="App">
@@ -46,7 +56,7 @@ function Team(){
          />
 
 <input onChange={e => setAmount(e.target.value)} 
-        placeholder="Enter the amount"
+        placeholder="0.055 eth per NFT"
          />
          
          
